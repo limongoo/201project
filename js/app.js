@@ -9,8 +9,8 @@ var portfolio = function(name, background) {
 var portfolioList = [];
 portfolioList.push(new portfolio("outtpost", "img/op4.jpg"));
 portfolioList.push(new portfolio("intrinzic", "img/hive.jpg"));
-// portfolioList.push(new portfolio("mpowered media", "img/"));
-// portfolioList.push(new portfolio("outtpost", "img/"));
+portfolioList.push(new portfolio("mpowered media", "img/"));
+portfolioList.push(new portfolio("outtpost", "img/"));
 
 
 function makeList() {
