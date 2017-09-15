@@ -1,35 +1,39 @@
 // js
 console.log("start");
 
+// constructor
 var portfolio = function(name, background) {
   this.name = name;
   this.background = background;
 }
 
+// array
 var portfolioList = [];
-portfolioList.push(new portfolio("outtpost", "img/op4.jpg"));
-portfolioList.push(new portfolio("intrinzic", "img/hive.jpg"));
-portfolioList.push(new portfolio("mpowered media", "img/3dhouse.jpg"));
-portfolioList.push(new portfolio("m realty", "img/mrealty-slogan.jpg"));
+portfolioList.push(new portfolio("outtpost", "op4.png"));
+portfolioList.push(new portfolio("intrinzic", "hive.jpg"));
+portfolioList.push(new portfolio("mpowered media", "3dhouse.jpg"));
+portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg"));
 
-
+// make list
 function makeList() {
   var build = document.getElementById("projectNames");
   for (index = 0; index < portfolioList.length; index++) {
     var port = portfolioList[index];
     var portList = document.createElement("li");
+    portList.dataset.backImg = port.background;
     portList.innerText = port.name;
-    portList.addEventListener("mouseover", show);
-    // portList.dataset.index = index;
+    portList.addEventListener("mouseover", show); // on mouse over trigger function 'show'
     build.appendChild(portList);
   }
 }
 
-function show(showImage) {
-  var click = event.target;
-  var back = document.getElementById("showBackground").innerHTML = "";
+// show function
+function show(event) {
+  var hover = event.target;
+  var back = document.getElementById("showBackground");
+  back.innerHTML = "";
   var image = document.createElement("img");
-  image.src = "img/" + showImage.background;
+  image.src = "img/" + hover.dataset.backImg
   back.appendChild(image);
 }
 
