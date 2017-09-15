@@ -8,6 +8,14 @@ body {
   letter-spacing: 0.2em;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 30px;
+}
+
 #container {
 
 }
