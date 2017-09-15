@@ -2,10 +2,15 @@
 
 body {
   font-family: 'work sans', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+header {
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  font-weight: 400;
 }
 
 ul {
@@ -16,6 +21,38 @@ li {
   padding-bottom: 30px;
 }
 
-#container {
+#about {
+  position: absolute;
+  left: 0;
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg)
+}
 
+#title {
+
+}
+
+#contact {
+
+}
+
+
+#container {
+  display:flex;
+}
+
+#projectNames {
+  z-index: 100;
+}
+
+#projecth1 {
+  font-size: 38px;
+  font-weight: 600px;
+  text-transform: capitalize;
+}
+
+#showBackground {
+  position: absolute;
+  z-index: 1;
 }

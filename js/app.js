@@ -9,9 +9,10 @@ var portfolio = function(name, background) {
 
 // array
 var portfolioList = [];
-portfolioList.push(new portfolio("outtpost", "op4.png"));
+portfolioList.push(new portfolio("outt—post", "op4.png"));
 portfolioList.push(new portfolio("intrinzic", "hive.jpg"));
-portfolioList.push(new portfolio("mpowered media", "3dhouse.jpg"));
+// portfolioList.push(new portfolio("chambray", ."jpg"));
+portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg"));
 portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg"));
 
 // make list
@@ -20,9 +21,11 @@ function makeList() {
   for (index = 0; index < portfolioList.length; index++) {
     var port = portfolioList[index];
     var portList = document.createElement("li");
+    portList.setAttribute("id", "projecth1");
     portList.dataset.backImg = port.background;
     portList.innerText = port.name;
     portList.addEventListener("mouseover", show); // on mouse over trigger function 'show'
+    portList.addEventListener("mouseout", out);
     build.appendChild(portList);
   }
 }
@@ -35,6 +38,12 @@ function show(event) {
   var image = document.createElement("img");
   image.src = "img/" + hover.dataset.backImg
   back.appendChild(image);
+}
+
+// out function
+function out() {
+  var back = document.getElementById("showBackground");
+  back.innerHTML = "";
 }
 
 
