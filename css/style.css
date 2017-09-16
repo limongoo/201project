@@ -22,11 +22,13 @@ li {
 }
 
 #about {
-  position: absolute;
-  left: 0;
-  -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg)
+  position: fixed;
+  left: 5px;
+  top: 150px;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  z-index: 1000;
 }
 
 #title {
