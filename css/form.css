@@ -30,12 +30,12 @@ label input {
   background-color: transparent;
   border: 0;
   border-bottom: 1px solid #4A4A4A;
-  color: white;
-  font-size: 36px;
-  letter-spacing: -1px;
+  color: grey;
+  font-size: 26px;
+  letter-spacing: 1px;
   outline: 0;
   padding: 5px 20px;
-  text-align: center;
+  text-align: left;
   transition: all 0.3s;
   width: 200px;
 }
