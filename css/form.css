@@ -73,7 +73,7 @@ button {
   letter-spacing: 0.2em;
 }
 button:hover, button:focus {
-  background-color: white;
+  background-color: gray;
   color: #333333;
   outline: 0;
 }

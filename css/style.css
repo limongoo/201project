@@ -55,13 +55,20 @@ li {
 }
 
 #title {
-  display: flex;
-  justify-content: flex-start;
+  /*display: flex;
+  justify-content: flex-start;*/
+  position: fixed;
+  top: 15px;
+  left: 15px;
+
 }
 
 #mood {
-  display: flex;
-  justify-content: flex-end;
+  /*display: flex;
+  justify-content: flex-end;*/
+  position: fixed;
+  top: 15px;
+  right: 15px;
 }
 
 #contact {
