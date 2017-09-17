@@ -11,6 +11,21 @@ body {
 header {
   text-transform: uppercase;
   font-weight: 400;
+  font-family: 'work sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+
+}
+
+header a:link {
+  transition: 0.3s ease all;
+  text-decoration: none;
+  color: black;
+  height: 20px;
+}
+
+header a:hover {
+  border-bottom: 1px solid black;
 }
 
 ul {
@@ -23,25 +38,53 @@ li {
 
 #about {
   position: fixed;
-  left: 5px;
-  top: 150px;
+  left: 15px;
+  top: 50%;
+  bottom: 0px;
+  /*display: flex;*/
   -ms-transform: rotate(-90deg); /* IE 9 */
   -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
   transform: rotate(-90deg);
-  z-index: 1000;
+  z-index: 10;
+  /*width: 100vh;
+  justify-content: center;*/
+  height: 0px;
+  width: 0px;
+
+
 }
 
 #title {
+  display: flex;
+  justify-content: flex-start;
+}
 
+#mood {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #contact {
-
+  position: fixed;
+  right: 15px;
+  top: 50%;
+  bottom: 0px;
+  /*display: flex;*/
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  z-index: 10;
+  /*width: 100vh;
+  justify-content: center;*/
+  height: 0px;
+  width: 0px;
 }
 
 
 #container {
-  display:flex;
+  display: flex;
+  max-width: 80%;
+  justify-content: center;
 }
 
 #projectNames {

@@ -4,22 +4,37 @@
     <title>Ivan Limongan — 201 Portfolio Project</title>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/form.css">
     <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body>
     <header>
-      <div id="about">About</div>
+      <div id="about"><a href="#">About</a></div>
       <div id="top">
         <div id="title">Ivan Limognan</div>
         <div id="mood">Current Mood:</div>
       </div>
-      <nav id="contact">Contact</nav>
+      <nav id="contact"><a href="#">Contact</a></nav>
     </header>
+
     <div id="container">
       <ul id="projectNames"></ul>
       <div id="showBackground"></div>
     </div>
 
+    <div id="contactmodal">
+      <form>
+        <label>
+          <input type="text" required />
+          <div class="label-text">First name</div>
+        </label>
+        <label>
+          <input type="text" required />
+          <div class="label-text">Last name</div>
+        </label>
+        <button>Submit</button>
+      </form>
+    </div>
 
-  </body>
+    </body>
 </html>
