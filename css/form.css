@@ -81,3 +81,19 @@ button:hover, button:focus {
 #showInput {
   text-transform: uppercase;
 }
+
+
+/* form modal */
+#modal {
+  z-index:101;
+  background-color: #000;
+  visibility: hidden;
+  opacity: 0;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+#modalactive {
+  opacity: 1;
+	visibility: visible;
+	transition: opacity 0.5s;
+}
