@@ -60,17 +60,20 @@ function contactForm(event) {
   var project = document.getElementById('formProject').value;
 
   var formResult = name+last+email+project;
-
+  localStorage.setItem('userData', JSON.stringify(formResult));
   document.getElementById('showInput').innerHTML = formResult;
 }
 
 // Local Storage for user name
-localStorage.setItem('userData', JSON.stringify(submitButton));
-
 var userRetrieve = localStorage.getItem('userData');
 if (userRetrieve != null) {
-  submitButton = JSON.parse(userRetrieve);
+  formResult = JSON.parse(userRetrieve);
 };
+
+if (
+  document.getElementById('displayUserName') != null) {
+  document.getElementById('displayUserName').innerHTML = formResult;
+}
 
 console.log('submitDiv')
 
