@@ -96,4 +96,5 @@ button:hover, button:focus {
   opacity: 1;
 	visibility: visible;
 	transition: opacity 0.5s;
+  z-index: 1000000;
 }
