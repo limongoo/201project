@@ -37,11 +37,11 @@ label input {
   padding: 5px 20px;
   text-align: left;
   transition: all 0.3s;
-  width: 200px;
+  width: 400px;
 }
 label input:focus {
   max-width: 100%;
-  width: 400px;
+  width: 600px;
 }
 label input:focus + .label-text {
   color: #F0F0F0;
@@ -76,4 +76,8 @@ button:hover, button:focus {
   background-color: gray;
   color: #333333;
   outline: 0;
+}
+
+#showInput {
+  text-transform: uppercase;
 }

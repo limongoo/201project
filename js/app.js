@@ -46,6 +46,26 @@ function out() {
   back.innerHTML = "";
 }
 
+// form input
+var submitButton = document.getElementById('submitDiv');
+submitButton.addEventListener('click', contactForm);
+
+function contactForm(event) {
+  event.preventDefault(); // prevent form from reloading window
+  var name = document.getElementById('formName').value;
+  var last = document.getElementById('formLast').value;
+  var email = document.getElementById('formEmail').value;
+  var project = document.getElementById('formProject').value;
+
+  var formResult = name+last+email+project;
+
+  document.getElementById('showInput').innerHTML = formResult;
+}
+
+console.log('submitDiv')
+
+
+
 
 window.addEventListener("load", makeList);
 
