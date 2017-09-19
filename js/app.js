@@ -77,7 +77,14 @@ if (
 
 console.log('submitDiv')
 
+// contact modal
+var contactShow = document.getElementById('contactmodal');
+contactShow.addEventListener('click', triggerContactModal);
 
+function triggerContactModal() {
+  var abc = document.getElementById('modal');
+  abc.setAttribute('class', 'active'); // not done
+}
 
 
 window.addEventListener("load", makeList);

@@ -92,7 +92,7 @@ button:hover, button:focus {
 	transition: opacity 0.5s, visibility 0s 0.5s;
 }
 
-#modalactive {
+#modal .active {
   opacity: 1;
 	visibility: visible;
 	transition: opacity 0.5s;
