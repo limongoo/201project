@@ -50,6 +50,8 @@ function out() {
 var submitButton = document.getElementById('submitDiv');
 submitButton.addEventListener('click', contactForm);
 
+
+
 function contactForm(event) {
   event.preventDefault(); // prevent form from reloading window
   var name = document.getElementById('formName').value;
@@ -61,6 +63,14 @@ function contactForm(event) {
 
   document.getElementById('showInput').innerHTML = formResult;
 }
+
+// Local Storage for user name
+localStorage.setItem('userData', JSON.stringify(submitButton));
+
+var userRetrieve = localStorage.getItem('userData');
+if (userRetrieve != null) {
+  submitButton = JSON.parse(userRetrieve);
+};
 
 console.log('submitDiv')
 
