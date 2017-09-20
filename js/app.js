@@ -60,8 +60,12 @@ function contactForm(event) {
 
   var formResult = name+last+email+project;
   localStorage.setItem('userData', JSON.stringify(formResult));
-  document.getElementById('showInput').innerHTML = formResult;
-
+  // document.getElementById('showInput').innerHTML = formResult;
+  var show = document.getElementById('showInput');
+  var thanks = document.createElement('h1');
+  var message = document.createTextNode("Thank you "+name+", your request is received!");
+  thanks.appendChild(message);
+  show.appendChild(thanks);
 }
 
 // form display none onclick

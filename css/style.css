@@ -40,6 +40,10 @@ li {
   padding-bottom: 30px;
 }
 
+h1 {
+  font-weight: 400;
+}
+
 #about {
   position: fixed;
   left: 15px;
@@ -111,7 +115,7 @@ li {
 #showBackground {
   position: absolute;
   z-index: 1;
-  
+
   right: 0px;
   bottom: 0px;
 }
