@@ -111,5 +111,12 @@ li {
 #showBackground {
   position: absolute;
   z-index: 1;
-  width: 100%;
+  
+  right: 0px;
+  bottom: 0px;
+}
+
+#showBackground img {
+  max-width: 800px;
+
 }

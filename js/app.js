@@ -50,6 +50,7 @@ function out() {
 var submitButton = document.getElementById('submitDiv');
 submitButton.addEventListener('click', contactForm);
 
+// function to capture user input
 function contactForm(event) {
   event.preventDefault(); // prevent form from reloading window
   var name = document.getElementById('formName').value;
@@ -68,6 +69,7 @@ if (userRetrieve != null) {
   formResult = JSON.parse(userRetrieve);
 };
 
+// display user input
 if (
   document.getElementById('displayUserName') != null) {
   document.getElementById('displayUserName').innerHTML = formResult;
