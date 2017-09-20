@@ -30,7 +30,7 @@ function makeList() {
   }
 }
 
-// show function
+// show background function
 function show(event) {
   var hover = event.target;
   var back = document.getElementById("showBackground");
@@ -40,7 +40,7 @@ function show(event) {
   back.appendChild(image);
 }
 
-// out function
+// out background function
 function out() {
   var back = document.getElementById("showBackground");
   back.innerHTML = "";
@@ -49,8 +49,6 @@ function out() {
 // form input
 var submitButton = document.getElementById('submitDiv');
 submitButton.addEventListener('click', contactForm);
-
-
 
 function contactForm(event) {
   event.preventDefault(); // prevent form from reloading window
@@ -77,7 +75,8 @@ if (
 
 console.log('submitDiv')
 
-// contact modal
+
+// open contact modal
 var contactShow = document.getElementById('contactmodal');
 contactShow.addEventListener('click', triggerContactModal);
 

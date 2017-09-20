@@ -38,11 +38,12 @@ label input {
   padding: 5px 20px;
   text-align: left;
   transition: all 0.3s;
-  width: 400px;
+  width: 100%;
+  max-width: 320px
 }
 label input:focus {
-  max-width: 100%;
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
 }
 label input:focus + .label-text {
   color: #F0F0F0;
@@ -62,10 +63,10 @@ label input:valid + .label-text {
 
 button {
   background-color: #333333;
-  border: 2px solid white;
+  border: 0px solid white;
   border-radius: 10px;
   color: white;
-  cursor: pointer;
+  /*cursor: pointer;*/
   font-size: 10px;
   margin-top: 20px;
   padding: 15px 30px;
@@ -74,8 +75,8 @@ button {
   letter-spacing: 0.2em;
 }
 button:hover, button:focus {
-  background-color: gray;
-  color: #333333;
+  background-color: #999;
+  color: white;
   outline: 0;
 }
 

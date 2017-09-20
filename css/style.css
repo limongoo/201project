@@ -94,7 +94,7 @@ li {
 
 #container {
   display: flex;
-  max-width: 80%;
+  width: 80%;
   justify-content: center;
 }
 
@@ -111,4 +111,5 @@ li {
 #showBackground {
   position: absolute;
   z-index: 1;
+  width: 100%;
 }
