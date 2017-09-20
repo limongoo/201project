@@ -82,8 +82,8 @@ var contactShow = document.getElementById('contactmodal');
 contactShow.addEventListener('click', triggerContactModal);
 
 function triggerContactModal() {
-  var abc = document.getElementsByClassName('modal')[0];
-  abc.setAttribute('class', 'modal active');
+  var addContact = document.getElementsByClassName('modal')[0];
+  addContact.setAttribute('class', 'modal active');
 }
 
 // close contact modal
@@ -91,8 +91,8 @@ var closeContact = document.getElementById('close');
 closeContact.addEventListener('click', closeContactModal);
 
 function closeContactModal() {
-  var xyz = document.getElementsByClassName('modal active')[1];
-  xyz.removeAttribute('class', 'active');
+  var xContact = document.getElementsByClassName('modal active')[0];
+  xContact.setAttribute('class', 'modal');
 }
 
 

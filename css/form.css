@@ -6,6 +6,7 @@ From: https://codemyui.com/animated-signup-form-with-shrinking-input-labels/
 form {
   text-align: left;
   z-index: 10000;
+  max-width: 60%;
 }
 
 label {
@@ -94,7 +95,7 @@ button:hover, button:focus {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: 90%;
   height: 100%;
   /*display: flex;*/
   padding: 5%;
@@ -107,6 +108,11 @@ button:hover, button:focus {
   z-index: 1000000;
 }
 
+#closeContactOverlay {
+  text-align: right;
+}
+
 #close {
   color: white;
+  text-transform: uppercase;
 }
