@@ -61,6 +61,13 @@ function contactForm(event) {
   var formResult = name+last+email+project;
   localStorage.setItem('userData', JSON.stringify(formResult));
   document.getElementById('showInput').innerHTML = formResult;
+
+}
+
+// form display none onclick
+submitButton.addEventListener('click', contactNone);
+function contactNone() {
+  var xForm = document.getElementById('userForm').style.display = "none";
 }
 
 // Local Storage for user name
