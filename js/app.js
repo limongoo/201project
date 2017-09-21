@@ -58,7 +58,7 @@ function contactForm(event) {
   var email = document.getElementById('formEmail').value;
   var project = document.getElementById('formProject').value;
 
-  var formResult = name+last+email+project;
+  var formResult = {name,last,email,project};
   localStorage.setItem('userData', JSON.stringify(formResult));
   // document.getElementById('showInput').innerHTML = formResult;
   var show = document.getElementById('showInput');
@@ -68,7 +68,7 @@ function contactForm(event) {
   show.appendChild(thanks);
 }
 
-var formResult = "";
+var formResult = null;
 
 // form display none onclick
 submitButton.addEventListener('click', contactNone);
@@ -83,13 +83,13 @@ if (userRetrieve != null) {
 };
 
 // display user input
-if (
-  
-  document.getElementById('displayUserName') != null) {
-  // document.getElementById('displayUserName').innerHTML = formResult;
+if (formResult == null){
+  var dontDisplay = document.getElementById('displayUserName').style.display = "none";
+}
+else {
   var display = document.getElementById('displayUserName');
   var displayCreate = document.createElement('p');
-  var displayMessage = document.createTextNode('Welcome '+formResult[0]+", your request is already submitted. Feel free to request for another project request below. Thanks!")
+  var displayMessage = document.createTextNode('Welcome '+formResult.name+" — your request was already submitted. Feel free to request for another project below. Thanks!")
   displayCreate.appendChild(displayMessage);
   display.appendChild(displayCreate);
 }

@@ -44,6 +44,14 @@ h1 {
   font-weight: 400;
 }
 
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 #about {
   position: fixed;
   left: 15px;
