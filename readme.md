@@ -12,4 +12,5 @@ Project Repository Link: http://www.github.com/limongoo
 Functionalities:
 - Show current projects
 - Open modal to contact form
+- Form local storage
 - Current mood status
