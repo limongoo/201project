@@ -8,9 +8,6 @@ body {
 
 }
 
-body a {
-  cursor: crosshair;
-}
 
 header {
   text-transform: uppercase;
@@ -20,7 +17,8 @@ header {
   font-style: normal;
 }
 
-header a:link {
+a {
+  cursor: crosshair;
   transition: 0.3s ease all;
   text-decoration: none;
   color: black;
@@ -28,7 +26,7 @@ header a:link {
   padding-bottom: 7px;
 }
 
-header a:hover {
+a:hover {
   border-bottom: 1px solid black;
 }
 
@@ -41,7 +39,7 @@ li {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .hidden {
