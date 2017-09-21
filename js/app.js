@@ -84,8 +84,14 @@ if (userRetrieve != null) {
 
 // display user input
 if (
+  
   document.getElementById('displayUserName') != null) {
-  document.getElementById('displayUserName').innerHTML = formResult;
+  // document.getElementById('displayUserName').innerHTML = formResult;
+  var display = document.getElementById('displayUserName');
+  var displayCreate = document.createElement('p');
+  var displayMessage = document.createTextNode('Welcome '+formResult[0]+", your request is already submitted. Feel free to request for another project request below. Thanks!")
+  displayCreate.appendChild(displayMessage);
+  display.appendChild(displayCreate);
 }
 
 console.log('submitDiv')

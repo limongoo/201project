@@ -85,6 +85,13 @@ button:hover, button:focus {
   color: white;
 }
 
+#displayUserName {
+  text-transform: uppercase;
+  color: white;
+  border: 3px solid white;
+  padding: 2%;
+  margin: 50px 0 0 0;
+}
 
 /* form modal */
 .modal {
@@ -126,4 +133,18 @@ button:hover, button:focus {
 
 #formHidden {
   display: none;
+}
+
+#showInput {
+  -webkit-animation: fadeIn 0.3s ease-in;
+    animation: fadeIn 0.3s ease-in;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
