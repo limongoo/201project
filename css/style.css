@@ -108,7 +108,7 @@ h1 {
 
 #projecth1 {
   font-size: 38px;
-  font-weight: 600px;
+  font-weight: 600px !important;
   text-transform: capitalize;
 }
 
