@@ -68,6 +68,8 @@ function contactForm(event) {
   show.appendChild(thanks);
 }
 
+var formResult = "";
+
 // form display none onclick
 submitButton.addEventListener('click', contactNone);
 function contactNone() {
