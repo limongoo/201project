@@ -103,7 +103,7 @@ h3 {
 #contact {
   position: fixed;
   right: 15px;
-  top: 40%;
+  top: 43%;
   bottom: 0px;
   /*display: flex;*/
   -ms-transform: rotate(90deg); /* IE 9 */
@@ -134,19 +134,19 @@ h3 {
 }
 
 #pList {
-  position: relative;
+  /*position: relative;*/
   z-index: 1000;
   width: 50%;
 }
 
 #showBackground {
-  /*position: absolute;*/
-  display: flex;
-  flex-direction: row;
+  position: absolute;
+  margin-left: 20%;
+  /*flex-direction: row;*/
   z-index: 1;
   width: 50%;
-  justify-content: flex-end;
-  
+  /*justify-content: flex-end;*/
+
   /*right: 0px;
   bottom: 0px;*/
 }
@@ -169,22 +169,15 @@ h3 {
   width: 50%;
 }
 
-
-
 #aboutImg {
   width: 50%;
   text-align: center;
-  transition: 0.4s ease all;
+  /*transition: 0.4s ease all;*/
   filter: grayscale(100%);
-
 }
 
-
-
-
 #aboutImg:hover {
-  transform: scale(1.05);
-
+  /*transform: scale(1.05);*/
 }
 
 #social {
