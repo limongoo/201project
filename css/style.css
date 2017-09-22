@@ -133,9 +133,9 @@ h3 {
 
 #container {
   display: flex;
-  margin: 8%;
+  margin: 11% 9% 0%;
   flex-direction: row;
-  height: 500px;
+  height: 600px;
 
 }
 
@@ -147,8 +147,14 @@ h3 {
   font-size: 38px;
   font-weight: 600px !important;
   text-transform: capitalize;
+  opacity: 0.3;
+  transition: 0.3s ease all;
   /*mix-blend-mode: difference;
   color: white;*/
+}
+
+#projecth1:hover {
+  opacity: 1;
 }
 
 #pList {
