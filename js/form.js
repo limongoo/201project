@@ -30,6 +30,8 @@ function contactNone() {
   var xForm = document.getElementById('userForm').style.display = "none";
 }
 
+
+
 // Local Storage for user name
 var userRetrieve = localStorage.getItem('userData');
 if (userRetrieve != null) {
@@ -43,12 +45,18 @@ if (formResult == null){
 else {
   var display = document.getElementById('displayUserName');
   var displayCreate = document.createElement('p');
-  var displayMessage = document.createTextNode('Welcome '+formResult.name+" — your request was already submitted. Feel free to request for another project below. Thanks!")
+  var displayMessage = document.createTextNode('Welcome back '+formResult.name+" — your request was already submitted. Feel free to request for another project below. Thanks!")
   displayCreate.appendChild(displayMessage);
   display.appendChild(displayCreate);
 }
 
 console.log('submitDiv')
+
+// close welcome back message on form submit click
+submitButton.addEventListener('click', welcomeMessage);
+function welcomeMessage() {
+  var xMessage = document.getElementById('displayUserName').style.display = "none";
+}
 
 
 // open contact modal
