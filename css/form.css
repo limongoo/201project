@@ -100,7 +100,7 @@ button:hover, button:focus {
   background-color: #000;
   visibility: hidden;
   opacity: 0;
-	transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.4s, visibility 0s 0.4s;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -113,7 +113,7 @@ button:hover, button:focus {
 .modal.active {
   opacity: 1;
 	visibility: visible;
-	transition: opacity 0.5s;
+	transition: opacity 0.4s;
   z-index: 1000000;
 }
 

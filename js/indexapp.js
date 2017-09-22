@@ -6,7 +6,7 @@ link.addEventListener('click', function (event) {
   document.body.classList.add("fadeout");
   setTimeout(function(){
     location.assign(event.target.href);
-  },500);
+  },400);
 })
 
 var link = document.getElementById('bbb');
@@ -16,5 +16,5 @@ link.addEventListener('click', function (event) {
   document.body.classList.add("fadeout");
   setTimeout(function(){
     location.assign(event.target.href);
-  },500);
+  },400);
 })
