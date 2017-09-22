@@ -12,9 +12,9 @@ var portfolio = function(name, background, link) {
 var portfolioList = [];
 portfolioList.push(new portfolio("outt—post", "op4.png", "outtpost.html"));
 portfolioList.push(new portfolio("intrinzic", "hive.jpg", "hive.html"));
-portfolioList.push(new portfolio("chambray", "chambray1.jpg", "chambray.html"));
 portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg", "mpowered.html"));
 portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg", "mrealty.html"));
+portfolioList.push(new portfolio("chambray", "chambray1.jpg", "chambray.html"));
 
 // make list
 function makeList() {
@@ -28,8 +28,11 @@ function makeList() {
     portList.dataset.backImg = port.background;
     portList.innerText = port.name;
 
-    var alink = document.createElement("a").setAttribute("href", port.link);
-    linkName.appendChild(alink);
+    var alink = document.createElement("a");
+    // var alink = document.createElement("a").setAttribute("href", port.link);
+    // linkName.appendChild(alink);
+    alink.href = port.link;
+    
 
     portList.addEventListener("mouseover", show); // on mouse over trigger function 'show'
     portList.addEventListener("mouseout", out);
