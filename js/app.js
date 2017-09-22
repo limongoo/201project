@@ -12,7 +12,7 @@ var portfolio = function(name, background, link) {
 var portfolioList = [];
 portfolioList.push(new portfolio("outt—post", "op4.png", "outtpost.html"));
 portfolioList.push(new portfolio("intrinzic", "hive.jpg", "hive.html"));
-// portfolioList.push(new portfolio("chambray", ."jpg"));
+portfolioList.push(new portfolio("chambray", "chambray1.jpg", "chambray.html"));
 portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg", "mpowered.html"));
 portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg", "mrealty.html"));
 
