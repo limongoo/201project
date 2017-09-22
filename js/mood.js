@@ -7,16 +7,16 @@ function moodTime() {
   var hour = now.getHours();
   var current = "Current mood: "
   if(hour == 0){
-    document.getElementById('mood').innerHTML = current+"REM 1";
+    document.getElementById('mood').innerHTML = current+"REM Cycle 1";
   }
   else if(hour == 1){
-    document.getElementById('mood').innerHTML = current+"REM 2";
+    document.getElementById('mood').innerHTML = current+"REM Cycle 2";
   }
   else if(hour == 2){
-    document.getElementById('mood').innerHTML = current+"REM 3";
+    document.getElementById('mood').innerHTML = current+"REM Cycle 3";
   }
   else if(hour == 3){
-    document.getElementById('mood').innerHTML = current+"REM 4";
+    document.getElementById('mood').innerHTML = current+"REM Cycle 4";
   }
   else if(hour == 4){
     document.getElementById('mood').innerHTML = current+"Dreaming about chips and guac";
@@ -25,7 +25,7 @@ function moodTime() {
     document.getElementById('mood').innerHTML = current+"Dreaming about tacos and salsa";
   }
   else if(hour == 6){
-    document.getElementById('mood').innerHTML = current+"Breakfast time";
+    document.getElementById('mood').innerHTML = current+"Breakfast burrito time";
   }
   else if(hour == 7){
     document.getElementById('mood').innerHTML = current+"Bagel time!";
