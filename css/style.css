@@ -129,6 +129,8 @@ h3 {
   width: 0px;
 }
 
+/* project container -------------------------------------*/
+
 #container {
   display: flex;
   margin: 8%;
@@ -162,7 +164,6 @@ h3 {
   z-index: 1;
   width: 50%;
   /*justify-content: flex-end;*/
-
   /*right: 0px;
   bottom: 0px;*/
 }
@@ -171,8 +172,17 @@ h3 {
   max-width: 800px;
 }
 
+/* about mood css ----------------------------------------------*/
+#moodstatus {
 
-/* project css */
+}
+
+
+
+
+
+
+/* about css ----------------------------------------------*/
 
 #projectContain  {
   display: flex;
@@ -210,7 +220,6 @@ h3 {
 }
 
 .imgo {
-
   padding: 10px 20px 0 0;
   transition: 0.3s ease all;
   opacity: 0.4;
@@ -221,7 +230,7 @@ a.imgo:hover {
   border-bottom: 0px;
 }
 
-/* page transition */
+/* page transition -------------------------------------------*/
 .fadein1 {
     -webkit-animation: fadeIn 0.4s ease-in;
     animation: fadeIn 0.4s ease-in;
@@ -232,9 +241,7 @@ a.imgo:hover {
 .fadein2 {
     -webkit-animation: fadeIn 0.4s ease-in;
     animation: fadeIn 0.4s ease-in;
-
 }
-
 
 .fadein {
     -webkit-animation: fadeIn 0.4s ease-in;
