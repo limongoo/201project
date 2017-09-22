@@ -27,12 +27,13 @@ function makeList() {
     portList.setAttribute("id", "projecth1");
     portList.dataset.backImg = port.background;
     portList.innerText = port.name;
+    // portList.innerText = document.creatTextNode(port.name);
 
     var alink = document.createElement("a");
     // var alink = document.createElement("a").setAttribute("href", port.link);
     // linkName.appendChild(alink);
     alink.href = port.link;
-    
+
 
     portList.addEventListener("mouseover", show); // on mouse over trigger function 'show'
     portList.addEventListener("mouseout", out);
