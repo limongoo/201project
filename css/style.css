@@ -135,14 +135,24 @@ h3 {
 
 #container {
   display: flex;
-  margin: 11% 9% 0%;
+  margin: 10% 9% 0%;
   flex-direction: row;
   height: 700px;
 
 }
 
+#pTitle {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 20px 43px;
+  -webkit-animation: fadeIn 0.4s ease-in;
+  animation: fadeIn 0.4s ease-in;
+}
+
 #projectNames {
   z-index: 100;
+  margin-top: 30px;
 }
 
 #projecth1 {
@@ -182,6 +192,8 @@ h3 {
 
 #showBackground img {
   max-width: 800px;
+  -webkit-animation: fadeIn 0.4s ease-in;
+  animation: fadeIn 0.4s ease-in;
 }
 
 /* about mood css ----------------------------------------------*/

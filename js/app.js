@@ -2,19 +2,20 @@
 console.log("start");
 
 // constructor
-var portfolio = function(name, background, link) {
+var portfolio = function(name, background, link, title) {
   this.name = name;
   this.background = background;
   this.link = link;
+  this.title = title;
 }
 
 // array
 var portfolioList = [];
-portfolioList.push(new portfolio("outt—post", "op4.png", "outtpost.html"));
-portfolioList.push(new portfolio("intrinzic", "hive.jpg", "hive.html"));
-portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg", "mpowered.html"));
-portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg", "mrealty.html"));
-portfolioList.push(new portfolio("chambray studios", "chambray1.jpg", "chambray.html"));
+portfolioList.push(new portfolio("outt—post", "op4.png", "outtpost.html", "design + concept"));
+portfolioList.push(new portfolio("intrinzic", "hive.jpg", "hive.html", "design"));
+portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg", "mpowered.html", "design + web + branding"));
+portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg", "mrealty.html", "design + branding"));
+portfolioList.push(new portfolio("chambray studios", "chambray1.jpg", "chambray.html", "photography + design"));
 
 // make list
 function makeList() {
@@ -30,9 +31,13 @@ function makeList() {
     alink.dataset.backImg = port.background;
     alink.innerText = port.name;
 
+    alink.dataset.upTitle = port.title;
+
     portList.appendChild(alink);
     alink.addEventListener("mouseover", show); // on mouse over trigger function 'show'
     alink.addEventListener("mouseout", out);
+    alink.addEventListener("mouseover", showTitle); // on mouse over trigger function 'show'
+    alink.addEventListener("mouseout", outTitle);
     build.appendChild(portList);
   }
 }
@@ -54,8 +59,20 @@ function out() {
 }
 
 
+// show title function
+function showTitle(event) {
+  var hoverTitle = event.target;
+  var hoverID = document.getElementById('pTitle');
+  hoverID.innerHTML = "";
+  var getTitle = document.createTextNode(hoverTitle.dataset.upTitle);
+  hoverID.appendChild(getTitle);
+}
 
-
+// out title function
+function outTitle() {
+  var titleOut = document.getElementById('pTitle');
+  titleOut.innerHTML = "";
+}
 
 
 
