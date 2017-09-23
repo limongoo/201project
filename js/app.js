@@ -21,22 +21,18 @@ function makeList() {
   var build = document.getElementById("projectNames");
   for (index = 0; index < portfolioList.length; index++) {
     var port = portfolioList[index];
-    var linkName = port.name;
 
     var portList = document.createElement("li");
     portList.setAttribute("id", "projecth1");
-    portList.dataset.backImg = port.background;
-    portList.innerText = port.name;
-    // portList.innerText = document.creatTextNode(port.name);
 
     var alink = document.createElement("a");
-    // var alink = document.createElement("a").setAttribute("href", port.link);
-    // linkName.appendChild(alink);
     alink.href = port.link;
+    alink.dataset.backImg = port.background;
+    alink.innerText = port.name;
 
-
-    portList.addEventListener("mouseover", show); // on mouse over trigger function 'show'
-    portList.addEventListener("mouseout", out);
+    portList.appendChild(alink);
+    alink.addEventListener("mouseover", show); // on mouse over trigger function 'show'
+    alink.addEventListener("mouseout", out);
     build.appendChild(portList);
   }
 }

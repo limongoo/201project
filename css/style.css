@@ -153,8 +153,12 @@ h3 {
   color: white;*/
 }
 
+#projecth1 a {
+  border-bottom: 0px;
+}
+
 #projecth1:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 #pList {
