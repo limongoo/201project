@@ -131,6 +131,7 @@ h3 {
   width: 0px;
 }
 
+
 /* project container -------------------------------------*/
 
 #container {
@@ -195,14 +196,6 @@ h3 {
   animation: fadeIn 0.4s ease-in;
 }
 
-/* about mood css ----------------------------------------------*/
-#moodstatus {
-
-}
-
-
-
-
 
 
 /* about css ----------------------------------------------*/
@@ -210,11 +203,12 @@ h3 {
 #projectContain  {
   display: flex;
   flex-direction: row;
-  margin: 12%;
+  margin: 10% 12%;
 }
 
 #aboutContent {
   width: 50%;
+  margin-top: 2%;
 }
 
 #aboutImg {
@@ -222,6 +216,7 @@ h3 {
   text-align: center;
   /*transition: 0.4s ease all;*/
   filter: grayscale(100%);
+  margin-top: 2%;
 }
 
 #aboutImg:hover {
@@ -252,6 +247,23 @@ a.imgo:hover {
   opacity: 1;
   border-bottom: 0px;
 }
+
+
+/* outtpost page css -------------------------------------------*/
+
+#projectImg {
+  width: 50%;
+  margin-top: 2%;
+  padding-left: 100px;
+}
+
+#projectO1 img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 /* page transition -------------------------------------------*/
 .fadein1 {
