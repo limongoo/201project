@@ -11,7 +11,7 @@ hr {
   border-top: .1rem solid;
   /*top: -.1rem;*/
   height: 0;
-  max-width: 40%;
+  max-width: 30%;
   text-align: center;
   margin: 30% auto;
   -ms-transform: rotate(-90deg); /* IE 9 */
@@ -30,6 +30,7 @@ header {
 
 a {
   cursor: crosshair;
+  /*cursor: url('../img/hand.png'), auto;*/
   transition: 0.3s ease all;
   text-decoration: none;
   color: black;
@@ -39,6 +40,7 @@ a {
 
 a:hover {
   border-bottom: 1px solid black;
+  /*cursor: url('../img/hand.png'), auto;*/
 }
 
 ul {
