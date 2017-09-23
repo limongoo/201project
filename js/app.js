@@ -11,11 +11,11 @@ var portfolio = function(name, background, link, title) {
 
 // array
 var portfolioList = [];
-portfolioList.push(new portfolio("outt—post", "op4.png", "outtpost.html", "design + concept"));
-portfolioList.push(new portfolio("intrinzic", "hive.jpg", "hive.html", "design"));
-portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg", "mpowered.html", "design + web + branding"));
-portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg", "mrealty.html", "design + branding"));
-portfolioList.push(new portfolio("chambray studios", "chambray1.jpg", "chambray.html", "photography + design"));
+portfolioList.push(new portfolio("outt—post", "op4.png", "outtpost.html", "— design + concept"));
+portfolioList.push(new portfolio("intrinzic", "hive.jpg", "hive.html", "— design"));
+portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg", "mpowered.html", "— design + web + branding"));
+portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg", "mrealty.html", "— design + branding"));
+portfolioList.push(new portfolio("chambray studios", "chambray1.jpg", "chambray.html", "— photography + design"));
 
 // make list
 function makeList() {

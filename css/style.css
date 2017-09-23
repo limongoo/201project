@@ -145,14 +145,12 @@ h3 {
   position: absolute;
   text-transform: uppercase;
   font-weight: 400;
-  margin: 0 0 20px 43px;
-  -webkit-animation: fadeIn 0.4s ease-in;
-  animation: fadeIn 0.4s ease-in;
+  margin-left: 10px;
 }
 
 #projectNames {
   z-index: 100;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 #projecth1 {
