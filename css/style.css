@@ -9,13 +9,12 @@ body {
 
 hr {
   border-top: .1rem solid;
-  /*top: -.1rem;*/
   height: 0;
   max-width: 20%;
   text-align: center;
   margin: 30% auto;
-  -ms-transform: rotate(-90deg); /* IE 9 */
-  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
   opacity: 0.6;
 }
@@ -30,7 +29,6 @@ header {
 
 a {
   cursor: crosshair;
-  /*cursor: url('../img/hand.png'), auto;*/
   transition: 0.3s ease all;
   text-decoration: none;
   color: black;
@@ -40,7 +38,6 @@ a {
 
 a:hover {
   border-bottom: 1px solid black;
-  /*cursor: url('../img/hand.png'), auto;*/
 }
 
 ul {
@@ -88,28 +85,21 @@ h3 {
   left: 15px;
   top: 50%;
   bottom: 0px;
-  /*display: flex;*/
-  -ms-transform: rotate(-90deg); /* IE 9 */
-  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
   z-index: 10;
-  /*width: 100vh;
-  justify-content: center;*/
   height: 0px;
   width: 0px;
 }
 
 #title {
-  /*display: flex;
-  justify-content: flex-start;*/
   position: fixed;
   top: 15px;
   left: 15px;
 }
 
 #mood {
-  /*display: flex;
-  justify-content: flex-end;*/
   position: fixed;
   top: 15px;
   right: 15px;
@@ -120,13 +110,10 @@ h3 {
   right: 15px;
   top: 43%;
   bottom: 0px;
-  /*display: flex;*/
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   z-index: 10;
-  /*width: 100vh;
-  justify-content: center;*/
   height: 0px;
   width: 0px;
 }
@@ -139,7 +126,6 @@ h3 {
   margin: 10% 9% 0%;
   flex-direction: row;
   height: 700px;
-
 }
 
 #pTitle {
@@ -160,12 +146,11 @@ h3 {
   text-transform: capitalize;
   opacity: 0.3;
   transition: 0.3s ease all;
-  /*mix-blend-mode: difference;
-  color: white;*/
 }
 
 #projecth1 a {
   border-bottom: 0px;
+  transition: 0.3s ease all;
 }
 
 #projecth1:hover {
@@ -173,7 +158,6 @@ h3 {
 }
 
 #pList {
-  /*position: relative;*/
   z-index: 1000;
   width: 50%;
   padding-top: 20px;
@@ -182,12 +166,8 @@ h3 {
 #showBackground {
   position: absolute;
   margin-left: 15%;
-  /*flex-direction: row;*/
   z-index: 1;
   width: 50%;
-  /*justify-content: flex-end;*/
-  /*right: 0px;
-  bottom: 0px;*/
 }
 
 #showBackground img {
@@ -195,7 +175,6 @@ h3 {
   -webkit-animation: fadeIn 0.4s ease-in;
   animation: fadeIn 0.4s ease-in;
 }
-
 
 
 /* about css ----------------------------------------------*/
@@ -208,7 +187,6 @@ h3 {
 
 #projectContain img {
   width: 100%;
-  /*height: 100%;*/
 }
 
 #aboutContent {
@@ -219,14 +197,13 @@ h3 {
 #aboutImg {
   width: 40%;
   text-align: center;
-  /*transition: 0.4s ease all;*/
   filter: grayscale(100%);
   margin-top: 2%;
   margin: 0 auto;
 }
 
 #aboutImg:hover {
-  /*transform: scale(1.05);*/
+
 }
 
 #social {
@@ -236,7 +213,6 @@ h3 {
 }
 
 #social:hover {
-  /*opacity: .5;*/
 }
 
 #social img {
@@ -257,16 +233,12 @@ a.imgo:hover {
 
 /* outtpost page css -------------------------------------------*/
 
-#projectImg {
-  width: 50%;
-  margin-top: 2%;
-  padding-left: 100px;
-  text-align: left;
-}
+#projectImg {width: 50%; margin-top: 2%; padding-left: 100px; text-align: left;}
 
 #projectO2 {width:47%;}
 #projectO3 {width:47%; padding-top: 20%; margin: 0 auto;}
 #projectO5 {width: 60%; padding-left:40%;}
+
 
 
 /* mpowered media page css -------------------------------------------*/
@@ -284,6 +256,7 @@ a.imgo:hover {
 #projectmpm9 {width: 25%;}
 
 #projectmpm10 {width: 90%; margin: 0 auto;}
+
 
 
 /* mrealty page css -------------------------------------------*/
@@ -315,6 +288,7 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 
 
+
 /* chambray page css -------------------------------------------*/
 
 #projectc1 {width: 45%; margin: 0 auto;}
@@ -328,6 +302,7 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 #projectc7 {width: 40%; margin-top: 20%;}
 
 #projectc8 {width: 90%; }
+
 
 
 /* hive page css -------------------------------------------*/
