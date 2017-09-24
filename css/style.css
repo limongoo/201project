@@ -17,7 +17,7 @@ hr {
   -ms-transform: rotate(-90deg); /* IE 9 */
   -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
   transform: rotate(-90deg);
-
+  opacity: 0.6;
 }
 
 header {
@@ -217,11 +217,12 @@ h3 {
 }
 
 #aboutImg {
-  width: 50%;
+  width: 40%;
   text-align: center;
   /*transition: 0.4s ease all;*/
   filter: grayscale(100%);
   margin-top: 2%;
+  margin: 0 auto;
 }
 
 #aboutImg:hover {
@@ -260,12 +261,58 @@ a.imgo:hover {
   width: 50%;
   margin-top: 2%;
   padding-left: 100px;
+  text-align: left;
 }
 
 #projectO2 {width:47%;}
 #projectO3 {width:47%; padding-top: 20%; margin: 0 auto;}
 #projectO5 {width: 60%; padding-left:40%;}
 
+
+/* mpowered media page css -------------------------------------------*/
+
+#projectmpm1 {width: 33%;}
+#projectmpm2 {width: 33%;}
+#projectmpm3 {width: 33%;}
+
+#projectmpm4 {width: 70%; margin: 0 auto;}
+#projectmpm5 {width: 70%; margin: 0 auto;}
+
+#projectmpm6 {width: 25%;}
+#projectmpm7 {width: 25%;}
+#projectmpm8 {width: 25%;}
+#projectmpm9 {width: 25%;}
+
+#projectmpm10 {width: 90%; margin: 0 auto;}
+
+
+/* mrealty page css -------------------------------------------*/
+
+#projectm2 {width: 70%; margin: 0 auto;}
+#projectm3 {width: 90%; margin: 0 auto;}
+
+#projectm4 {width: 40%; margin: 0 auto;}
+#projectm5 {width: 40%; margin: 0 auto;}
+
+#projectm4 img {-webkit-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+-moz-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
+#projectm5 img {-webkit-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+-moz-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
+
+#projectm6 img {-webkit-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+-moz-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
+
+#projectm7 {width: 45%; margin: 0 auto;}
+#projectm8 {width: 45%; margin: 25% auto;}
+
+#projectm9 {width: 70%; margin: 0 auto;}
+#projectm10 {width: 70%; margin: 0 auto;}
+#projectm10 img {-webkit-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+-moz-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 
 /* page transition -------------------------------------------*/
 .fadein1 {
