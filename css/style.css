@@ -314,6 +314,22 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 -moz-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
 box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 
+
+/* chambray page css -------------------------------------------*/
+
+#projectc1 {width: 45%; margin: 0 auto;}
+
+#projectc2 {width: 50%; margin-top: 20%;}
+#projectc3 {width: 40%; margin: 0 auto;}
+
+#projectc4 {width: 50%; margin-left: 50%;}
+
+#projectc6 {width: 40%; margin: 0 auto;}
+#projectc7 {width: 40%; margin-top: 20%;}
+
+#projectc8 {width: 90%; }
+
+
 /* page transition -------------------------------------------*/
 .fadein1 {
     -webkit-animation: fadeIn 0.4s ease-in;
