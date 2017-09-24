@@ -10,7 +10,7 @@ Project Repository Link: http://www.github.com/limongoo
 ----
 
 Functionalities:
-- Show current projects through DOM model
+- Show current projects through object constructor
 - Open modal to contact form
-- Form local storage
+- Local storage on form user input
 - Current mood status based on current hour
