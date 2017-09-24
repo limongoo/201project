@@ -155,6 +155,7 @@ h3 {
 
 #projecth1:hover {
   opacity: 0.8;
+  padding-left: 10px;
 }
 
 #pList {
