@@ -58,7 +58,6 @@ function out() {
   back.innerHTML = "";
 }
 
-
 // show title function
 function showTitle(event) {
   var hoverTitle = event.target;
@@ -74,8 +73,5 @@ function outTitle() {
   titleOut.innerHTML = "";
 }
 
-
-
 window.addEventListener("load", makeList);
-
 console.log("end");

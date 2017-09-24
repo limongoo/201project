@@ -11,6 +11,7 @@ Project Repository Link: http://www.github.com/limongoo
 
 Functionalities:
 - Show current projects through object constructor
-- Open modal to contact form
+- On project title hover, show background and title of project
+- Open modal to contact form on current page
 - Local storage on form user input
 - Current mood status based on current hour

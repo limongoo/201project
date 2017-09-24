@@ -40,7 +40,7 @@ function moodTime() {
     document.getElementById('mood').innerHTML = current+"pastry and coffee";
   }
   else if(hour == 11){
-    document.getElementById('mood').innerHTML = current+"Eating pre-lunch";
+    document.getElementById('mood').innerHTML = current+"Getting ready for lunch";
   }
   else if(hour == 12){
     document.getElementById('mood').innerHTML = current+"Lunch time";
@@ -49,7 +49,7 @@ function moodTime() {
     document.getElementById('mood').innerHTML = current+"Still eating lunch";
   }
   else if(hour == 14){
-    document.getElementById('mood').innerHTML = current+"After lunch snacks";
+    document.getElementById('mood').innerHTML = current+"Eating after lunch snacks";
   }
   else if(hour == 15){
     document.getElementById('mood').innerHTML = current+"Need second lunch";
