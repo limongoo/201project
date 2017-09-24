@@ -5,6 +5,8 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 hr {
