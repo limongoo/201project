@@ -330,6 +330,19 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 #projectc8 {width: 90%; }
 
 
+/* hive page css -------------------------------------------*/
+
+#projecth1 {width: 80%; margin: 0 auto;}
+
+#projecth2 {width: 45%; }
+#projecth3 {width: 45%;margin: 10% auto 0; }
+
+#projecth4 {width: 90%; margin: 0 auto;}
+
+#projecth5 {width: 70%; margin-left: 40%;}
+
+
+
 /* page transition -------------------------------------------*/
 .fadein1 {
     -webkit-animation: fadeIn 0.4s ease-in;
