@@ -15,3 +15,11 @@ Functionalities:
 - Open modal to contact form on current page
 - Local storage on form user input
 - Current mood status based on current hour
+
+Features:
+- Project showcase on first page
+- Fixed navigation / header elements
+- Modal view for contact form
+- Page transitions
+- Project showcase on bottom of every page for easy accessibility
+- Micro-animations 
