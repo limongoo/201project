@@ -22,4 +22,4 @@ Features:
 - Modal view for contact form
 - Page transitions
 - Project showcase on bottom of every page for easy accessibility
-- Micro-animations 
+- Micro-animations
