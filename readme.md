@@ -3,7 +3,7 @@
 ----
 A Portfolio Concept Project for Code 201 class / Alchemy Code Lab
 
-Live Project Link:
+Live Project Link: https://limongoo.github.io/201project/
 
 Project Repository Link: http://www.github.com/limongoo
 
@@ -22,4 +22,5 @@ Features:
 - Modal view for contact form
 - Page transitions
 - Project showcase on bottom of every page for easy accessibility
-- Micro-animations 
+- Micro-animations for user interaction
+- Current mood status
