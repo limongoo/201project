@@ -1,11 +1,11 @@
 # 201 Project — Ivan Limongan
 
-----
-A Portfolio Concept Project for Code 201 class / Alchemy Code Lab
 
-Live Project Link: (https://limongoo.github.io/201project/)
+> A Portfolio Concept Project for Code 201 class / Alchemy Code Lab
 
-Project Repository Link: [Project Repository](http://www.github.com/limongoo).
+:computer: Live Project Link: https://limongoo.github.io/201project/
+
+Go to: [Project Repository](http://www.github.com/limongoo).
 
 ----
 
@@ -15,6 +15,7 @@ Functionalities:
 - Open modal to contact form on current page
 - Local storage on form user input
 - Current mood status based on current hour
+
 
 Features:
 - Project showcase on first page
