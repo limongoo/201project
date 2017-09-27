@@ -3,9 +3,9 @@
 ----
 A Portfolio Concept Project for Code 201 class / Alchemy Code Lab
 
-Live Project Link: https://limongoo.github.io/201project/
+Live Project Link: (https://limongoo.github.io/201project/)
 
-Project Repository Link: http://www.github.com/limongoo
+Project Repository Link: (http://www.github.com/limongoo)
 
 ----
 
