@@ -73,5 +73,11 @@ function outTitle() {
   titleOut.innerHTML = "";
 }
 
+// scroll reveal - Scroll Reveal from https://scrollrevealjs.org/
+window.sr = ScrollReveal({origin: 'bottom'});
+var revealContainer = document.getElementById('projectContain');
+sr.reveal('.sr', {container: projectContain});
+
+
 window.addEventListener("load", makeList);
 console.log("end");
