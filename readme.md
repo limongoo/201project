@@ -1,9 +1,13 @@
 # 201 Project — Ivan Limongan
 
 
+<<<<<<< HEAD
 > A Portfolio Concept Project for Code 201 class / Alchemy Code Lab
 
 :computer: Live Project Link: https://limongoo.github.io/201project/
+=======
+Live Project Link: https://limongoo.github.io/201project/
+>>>>>>> readme update
 
 Go to: [Project Repository](http://www.github.com/limongoo).
 
@@ -25,4 +29,7 @@ Features:
 - Project showcase on bottom of every page for easy accessibility
 - Micro-animations for user interaction
 - Current mood status
+<<<<<<< HEAD
 
+=======
+>>>>>>> readme update
