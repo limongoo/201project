@@ -2,7 +2,7 @@
 
 body {
   font-family: 'work sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
@@ -36,6 +36,7 @@ a {
   color: black;
   height: 20px;
   padding-bottom: 7px;
+  border-bottom: 1px solid white;
 }
 
 a:hover {
@@ -50,14 +51,52 @@ li {
   padding-bottom: 30px;
 }
 
-h1 {
+/* h1 {
   font-weight: 600;
 }
 
 h3 {
   font-weight: 400;
   line-height: 1.8em;
+} */
+
+p {
+  margin-bottom: 1.3em;
+  line-height: 1.7;
+  font-weight: 400;
 }
+
+/* Font sizing from http://type-scale.com/ */
+h1, h2, h3, h4 {
+  /* margin: 1em 0 0.5em; */
+  line-height: 1.1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 0 1rem 0;
+  color: $black;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.598em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.827em;
+  margin: 0 .8em;
+}
+
+
+h3 {
+  font-size: 1.999em;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+h4 {font-size: 1.414em;}
 
 .hidden {
   display: none;
@@ -182,10 +221,20 @@ h3 {
 
 /* about css ----------------------------------------------*/
 
-#projectContain  {
+#projectContain {
   display: flex;
   flex-direction: row;
   margin: 10% 12%;
+}
+
+#projectContain h1 {
+  font-size: 32px;
+}
+
+#projectContain h3 {
+  font-size: 16px;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 #projectContain img {
@@ -350,4 +399,61 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/*  -------- Media Queries ------- */
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  h1 {margin-top: 0;font-size: 2.074em;}
+  h2 {font-size: 1.728em;}
+  h3 {font-size: 1.44em;}
+  h4 {font-size: 1.2em;}
+
+  #mood {
+    display: none;
+  }
+
+  #projectContain {
+    flex-direction: column;
+  }
+
+  #aboutContent {
+    width: 100%;
+    margin: 2rem 0 0;
+  }
+
+  #projectImg {
+    width: 100%;
+    padding: 0;
+  }
+
+  #projecth1 {
+    font-size: 22px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+  h1 {font-size: 2.957em;}
+  h2 {font-size: 2.369em;}
+  h3 {font-size: 1.777em;}
+  h4 {font-size: 1.333em;}
+
+  #projectContain {
+    flex-direction: column;
+  }
+
+  #aboutContent {
+    width: 100%;
+  }
+
+  #projectImg {
+    width: 100%;
+    padding: 0;
+  }
+
+  #projecth1 {
+    font-size: 27px;
+  }
 }
