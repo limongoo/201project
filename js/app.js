@@ -11,6 +11,7 @@ var portfolio = function(name, background, link, title) {
 
 // array
 var portfolioList = [];
+portfolioList.push(new portfolio("SPW 2.0", "prop/spw-ver2-hero.jpg", "spw.html", "— design + web + ux/ui"));
 portfolioList.push(new portfolio("mPowered media", "3dhouse.jpg", "mpowered.html", "— design + web + branding"));
 portfolioList.push(new portfolio("m realty", "mrealty-slogan.jpg", "mrealty.html", "— design + branding"));
 portfolioList.push(new portfolio("outt—post", "op4.png", "outtpost.html", "— design + concept"));
