@@ -202,7 +202,7 @@ h4 {font-size: 1.414em;}
 #pList {
   z-index: 1000;
   width: 50%;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 #showBackground {
@@ -220,6 +220,10 @@ h4 {font-size: 1.414em;}
 
 
 /* about css ----------------------------------------------*/
+
+#textContain {
+  margin: 10% 12% 0%;
+}
 
 #projectContain {
   display: flex;
@@ -368,6 +372,17 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 
 #projecth5 {width: 70%; margin-left: 40%;}
 
+
+
+/* spw page ------------------- */
+
+.drop {
+  padding: 0 1.5rem;
+}
+
+.drop img {-webkit-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+  -moz-box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);
+  box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
 
 
 /* page transition -------------------------------------------*/
