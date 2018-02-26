@@ -25,3 +25,4 @@ Features:
 - Project showcase on bottom of every page for easy accessibility
 - Micro-animations for user interaction
 - Current mood status
+
