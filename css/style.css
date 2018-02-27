@@ -438,6 +438,11 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
     margin: 2rem 0 0;
   }
 
+  #aboutImg {
+    margin: 4rem 0 0;
+    width: 100%;
+  }
+
   #projectImg {
     width: 100%;
     padding: 0;
@@ -460,6 +465,11 @@ box-shadow: 6px 6px 46px -6px rgba(0,0,0,0.37);}
   }
 
   #aboutContent {
+    width: 100%;
+  }
+
+  #aboutImg {
+    margin: 4rem 0 0;
     width: 100%;
   }
 
